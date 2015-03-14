@@ -10,5 +10,5 @@ for subdir, dirs, files in os.walk(root):
         filename = os.path.join(subdir,file)
         txt = open(os.path.join(subdir,file)).read().split('\n')
         stat = '\t'.join([txt[i].strip().split('\t')[1] for i in index])
-        f.write(filename + '\t' + '\t'.join([txt[i].strip().split('\t')[1] for i in index]) + '\n')
+        f.write(filename + '\t' + stat + '\n')
 f.close()
