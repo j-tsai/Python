@@ -1,7 +1,7 @@
 import os
 #os.getcwd()
 root = '/Volumes'
-f = open(r'LogFinalOut.txt','w')
+f = open('LogFinalOut.txt','w')
 f.write('file\tnumInput\tuniquelyMapped\tuniquePercent\n')
 index = [5,8,9]
 for subdir, dirs, files in os.walk(root):
