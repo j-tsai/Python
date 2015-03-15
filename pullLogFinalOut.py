@@ -1,4 +1,5 @@
 import os
+#os.getcwd()
 root = '/Volumes'
 f = open(r'LogFinalOut.txt','w')
 f.write('file\tnumInput\tuniquelyMapped\tuniquePercent\n')
